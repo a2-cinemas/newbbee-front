@@ -1,0 +1,48 @@
+.Index {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll {
+  overflow-x: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.scroll {
+  -ms-overflow-style: none;
+}
+.box {
+  display: block;
+  margin: 0 auto;
+  width: 50%; /* Set this based on the size of the text box you are using */
+}
